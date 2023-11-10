@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../images/leaves-3744649_1280.jpg') no-repeat fixed center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+
+.clockBackground{
+    background: url(../images/plane.jpg) no-repeat fixed center;
+    background-size:cover; 
+}
+.blur{
+    background-color: rgba(0,0,0,0.1);
+
+}
+
