@@ -23,14 +23,14 @@ function intialiseApp(){
     if(alarmList){
         // now matching the current time 
         if(alarmList.indexOf(currentTime)>-1){
-           
+            alert('Alarm: ' + currentTime);
             
-             play();
+            //  play();
 
-              setTimeout(function(){
-                alert('Alarm: ' + currentTime);
+            //   setTimeout(function(){
+                
 
-              },500)
+            //   },500)
             
             
             // we may remove alarm also after the alarm alert by simply executing removeAlarm(time); 
@@ -161,7 +161,6 @@ function renderAlarmList(alarmList){
 
 function removeAlarm(alarm){
 
-    console.log(alarm);
     let alarmList=getAlarmList();
 
     if(alarmList){
