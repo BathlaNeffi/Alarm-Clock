@@ -1,6 +1,13 @@
 //  intialise  the alarm app and show current time
 
+
+function play() {
+    var audio = new Audio('./assets/audio/beep.mp3');
+    audio.play();
+  }
+
 function intialiseApp(){
+    
     
 
     setInterval(function(){
@@ -16,10 +23,7 @@ function intialiseApp(){
     if(alarmList){
         // now matching the current time 
         if(alarmList.indexOf(currentTime)>-1){
-            function play() {
-                var audio = new Audio('/SkillTestJS/AlarmClock/assets/audio/beep.mp3');
-                audio.play();
-              }
+           
             
              play();
 
